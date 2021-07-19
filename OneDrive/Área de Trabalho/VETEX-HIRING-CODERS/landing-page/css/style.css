@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section-one{
+    background-image: url(../assets/fundo1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-section-two{
+    background-image: url(../assets/fundo12.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.texto-lateral{
+   font-size: 3em; 
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: black;
+   padding: 100px;
+   float: right;
+   width: 500px;
+  }
+
+  span{
+    font-family: VTEXTrust,sans-serif;
+  }
+   
+.card-container{
+    background: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: black;
+    color: ghostwhite;
+}
+
+form{
+    display: grid;
+}
+
+footer{
+
+    height: 150px;
+    padding: 25px;
+    text-align: center;
+    background-image: url(../assets/fundo13.png);
+    color: #fff;
+}
+
+
+
