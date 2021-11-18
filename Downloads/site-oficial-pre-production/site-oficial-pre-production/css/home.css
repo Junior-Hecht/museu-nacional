@@ -1,0 +1,334 @@
+:root {
+  --bg: #ffffff;
+  --bg2: #38e0be;
+  --texto: #1a2b46;
+  --bg3: #3ad8b86e;
+}
+* {
+  font-family: "Tomorrow", sans-serif;
+}
+
+html {
+  font-size: 62.5%; /*igual a 10px */
+}
+
+.padrao-p {
+  font-size: 1.8rem;
+  color: var(--texto);
+}
+
+body {
+  background-color: var(--bg);
+}
+/*Inicio navBar*/
+.navbar {
+  background-color: var(--bg);
+  margin: 0 25px 0 25px;
+  /* box-shadow: 0 0 1em #38e0be; */
+}
+#logo {
+  width: 220px;
+}
+.navbar-toggler {
+  border: 0;
+  font-size: 2.6rem;
+}
+.navbar .navbar-nav .nav-link {
+  position: relative;
+  font-size: 1.5rem;
+  padding: 2.5rem 4rem;
+  color: var(--texto);
+}
+#navbarLinks a:hover {
+  color: var(--bg2);
+  transition: 0s;
+  /* box-shadow: 0 0 1em #38e0be; */
+}
+.btnTop {
+  padding: 1.2rem;
+  border-radius: 5px;
+  color: var(--bg);
+  background-color: var(--texto) !important;
+}
+.btnTop:hover {
+  color: var(--bg);
+  background-color: var(--bg2) !important;
+}
+/*navBar*/
+@media screen and (max-width: 988px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 1.8rem;
+    text-align: left;
+    line-height: 100%;
+    border-bottom: 1px solid #00000067;
+  }
+}
+/* @media screen and (max-width: 1024px) {
+  .btnTop {
+    display: ;
+  }
+} */
+/*navBar*/
+@media (min-width: 260px) and (max-width: 530px) {
+  .navbar {
+    margin: 0;
+  }
+  .container-fluid .p-5 {
+    padding: 5px !important;
+  }
+  /* .title {
+    font-size: 3.5rem;
+    display: flex;
+    text-align: center;
+  } */
+
+  h2 {
+    font-size: 3rem !important;
+  }
+  /* .btnTop {
+    display: none;
+  } */
+  #alvo {
+    display: none;
+  }
+  #logo {
+    width: 180px;
+  }
+  #img-two {
+    display: none;
+  }
+  .navbar-toggler {
+    border: 0;
+    font-size: 2rem;
+  }
+  #paragrafo2 .p-5 {
+    padding: 5px !important;
+  }
+  .div-two {
+    margin: 10px 10px !important;
+  }
+  .bg-two-2 {
+    margin-top: 50px;
+    margin-bottom: 90px;
+  }
+  .bg-two-2 h2 {
+    padding-bottom: 30px;
+  }
+  .btn-tec {
+    margin-bottom: 50px;
+  }
+  .navbar .navbar-nav .nav-link {
+    font-size: 1.4rem;
+    padding: 1rem 0.8rem;
+    color: var(--textoLink);
+  }
+  /*Fim navBar*/
+
+}
+
+/*Background-color*/
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+.bg-one {
+  background-color: var(--bg);
+  color: var(--texto);
+}
+.bg-two {
+  background-color: var(--bg);
+}
+.bg-two-2 {
+  background-color: var(--bg);
+  color: var(--texto);
+}
+.section-one {
+  color: var(--texto);
+}
+.bg-Form {
+  background-color: var(--bg);
+}
+/*Fim Background-color*/
+
+/*Início do CSS section-one */
+
+h1{
+  text-align: left;
+  font-weight: normal;
+  font-size: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  line-height: 6rem;
+  word-break: break-word; /*Essa linha limita os caracters a ficar dentro do bloco */
+}
+
+.img-one {
+  max-width: 50rem;
+}
+
+.img-two {
+  max-width: 42rem;
+}
+
+#paragrafo1-1 p {
+  text-align: left;
+  line-height: 3rem;
+}
+#paragrafo2 {
+  padding-right: 50px;
+  font-size: 2.5rem;
+  color: var(--texto);
+}
+
+/*Fim do CSS section-one*/
+
+/*Inicio do CSS section-Two*/
+#quemsomos {
+  margin-bottom: 5rem;
+}
+.bg-two-2 h2 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  color: var(--texto);
+}
+.classDobra2 p {
+  text-align: left;
+}
+.ceo {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.bg-grad {
+  background-image: linear-gradient(var(--bg), var(--bg3), var(--bg));
+  height: auto;
+}
+/*Final do CSS section-two*/
+
+/*Início do CSS section-three*/
+.btn-tec .btn-tecone {
+  word-wrap: break-all;
+}
+.btn-tec h2 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  color: var(--texto);
+}
+.btn-tec .div-texto-one p {
+  color: var(--texto);
+}
+.div-two p {
+  font-weight: normal;
+  color: var(--texto);
+}
+.btn-tec h3 {
+  font-weight: normal;
+}
+.btn-tec .card-shadow:hover {
+  box-shadow: 0 8px 10px #aaa;
+}
+#cards {
+  margin-bottom: 5rem;
+}
+/*Fim do CSS section-three*/
+
+/*Slider Container*/
+.bg-two h3 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  color: var(--texto);
+}
+.card-title {
+  font-size: 2.5rem;
+}
+#image-container {
+  padding-top: 1.5rem;
+  font-weight: bold;
+}
+#carousel {
+  padding-bottom: 5rem;
+}
+/*Fim Slider Container*/
+
+/*Início do CSS section-four*/
+
+.section4 {
+  margin-top: 8rem;
+  background-color: var(--bg);
+}
+.section4 img {
+  height: 500px;
+}
+.section4 .h4 {
+  margin-left: 40px;
+  font-weight: normal;
+  font-size: 3.5rem;
+  color: var(--texto);
+}
+.section4 p {
+  margin-left: 20px;
+  padding: 30px;
+  font-size: 2.5rem;
+  text-transform: lowercase;
+  color: var(--texto);
+}
+.section4 .btn {
+  color: var(--bg);
+  background-color: var(--texto) !important;
+}
+.section4 .btn:hover {
+  background-color: var(--bg2) !important;
+  color: var(--bg);
+}
+
+.dobra5-p {
+  margin-top: 20rem;
+}
+
+/*Fim do CSS section-four*/
+
+/*** FOOTER ***/
+.footer-Main {
+  background-color: var(--texto);
+}
+footer .logo {
+  max-width: 320px;
+}
+footer h3 {
+  color: var(--bg);
+}
+footer .address ul {
+  margin-top: 20px;
+}
+footer .address a {
+  text-decoration: none;
+  color: var(--bg);
+  font-size: 1rem;
+  font-weight: normal;
+}
+footer .address li:nth-last-child(1n) {
+  margin-top: 10px;
+}
+footer .address .address-icon {
+  color: var(--bg);
+  font-size: 1.2rem;
+}
+.footer-2 {
+  background-color: rgb(1, 1, 19);
+}
+.footer-2 a {
+  text-decoration: none;
+}
+.footer-2 span {
+  color: var(--bg);
+}
+.footer-2 .simbol {
+  color: var(--bg2);
+}
+
+@media (min-width:319px) and (max-width: 988px) {
+  .tamanho-titulo {
+    font-size: 3.5rem;
+  }
+}
+

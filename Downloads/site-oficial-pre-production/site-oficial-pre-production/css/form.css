@@ -1,0 +1,66 @@
+#modal {
+  display: flex;
+  flex-wrap: wrap;
+}
+.titulo-form {
+  color: black;
+}
+.form-1 {
+  width: 45%;
+  margin-top: 5%;
+}
+.form-2 {
+  display: none;
+  width: 45%;
+  flex-wrap: wrap;
+}
+.form-3 {
+  display: none;
+  width: 45%;
+  flex-wrap: wrap;
+}
+.form-4 {
+  display: none;
+  width: 45%;
+  flex-wrap: wrap;
+}
+.form-5 {
+  display: none;
+  width: 45%;
+  flex-wrap: wrap;
+}
+.form-6 {
+  display: none;
+  width: 45%;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 990px) {
+  
+  .form-1 {
+    width: 95%;
+    margin-top: 5%;
+  }
+  .form-2 {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .form-3 {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .form-4 {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .form-5 {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .form-6 {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .form-6 .container {
+    font-size: small;
+  }
+}
